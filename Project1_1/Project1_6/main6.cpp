@@ -31,10 +31,8 @@ int main(void)
         break;
     }
 
-    heart -= check;
-
     cout << endl;
-    cout << "현재 내 호감도 : " << check << endl;
+    cout << "현재 내 호감도 : " << heart << endl;
     cout << endl;
     cout << "<며칠 후>" << endl;
     cout << endl;
@@ -49,8 +47,8 @@ int main(void)
     switch (check)
     {
     case 1:
-        cout << "고양이는 많이 배고팠는지 야무지게 간식을 먹어치우고 조금은 생기있는 눈빛으로 쳐다보고는 다리에 비비고 가버렸다. [호감+2]" << endl;
-        heart -= 2;
+        cout << "고양이는 많이 배고팠는지 야무지게 간식을 먹어치우고 조금은 생기있는 눈빛으로 쳐다보고는 다리에 몸을 비비고 가버렸다. [호감+2]" << endl;
+        heart += 2;
         break;
     case 2:
         cout << "서둘러 뛰어왔지만 고양이는 온데간데 없었다. [호감변동없음]" << endl;
@@ -61,10 +59,8 @@ int main(void)
         break;
     }
 
-    heart -= check;
-
     cout << endl;
-    cout << "현재 내 호감도 : " << check << endl;
+    cout << "현재 내 호감도 : " << heart << endl;
 
     return 0;
 }
