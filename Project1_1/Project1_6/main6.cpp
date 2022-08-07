@@ -64,7 +64,7 @@ int main(void)
     cout << endl;
     cout << "현재 내 호감도 : " << heart << endl;
     cout << endl;
-    if (heart == 5)
+    if (heart >= 5)
     {
         cout << "축하드립니다! 이제 길고양이의 사랑을 받는 상태가 됩니다";
     }
