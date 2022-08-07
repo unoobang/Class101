@@ -6,6 +6,8 @@ int main(void)
     int heart = 2;
     int check;
 
+    cout << "목표! 호감도 5만들기" << endl;
+    cout << endl;
     cout << "현재 내 호감도 상태: 2" << endl;
     cout << endl;
     cout << "길고양이가 '야옹'소리를 내며 다가온다" << endl;
@@ -61,6 +63,11 @@ int main(void)
 
     cout << endl;
     cout << "현재 내 호감도 : " << heart << endl;
-
+    cout << endl;
+    if (heart == 5)
+    {
+        cout << "축하드립니다! 이제 길고양이의 사랑을 받는 상태가 됩니다";
+    }
+    cout << endl;
     return 0;
 }
